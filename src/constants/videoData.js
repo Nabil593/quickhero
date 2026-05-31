@@ -80,10 +80,6 @@ export const milestones = [
   },
 ];
 
-
-
-
-
 export const videoLinks = [
   // --- MILESTONE 3: HELLO JAVASCRIPT ---
 
@@ -129,11 +125,10 @@ export const videoLinks = [
     title: "Compare variables and Comparison operator",
     category: "m3-variable", // ম্যাপ করা হয়েছে Milestone 3 এর Problem Solving ক্যাটাগরিতে
     milestone: 3,
-    module: 14-1,
+    module: 14 - 1,
     url: "https://web.programming-hero.com/web-13/video/web-13-14_1-compare-variables-and-comparison-operator",
     projectName: "N/A",
   },
-
 
   // Category -> (m3-arithmetic):
   {
@@ -159,7 +154,7 @@ export const videoLinks = [
     title: "(advanced) Mathematical operation shorthand",
     category: "m3-arithmetic",
     milestone: 3,
-    module: 13.10,
+    module: 13.1,
     url: "https://web.programming-hero.com/web-13/video/web-13-13-10-advanced-mathematical-operation-shorthand",
     projectName: "N/A",
   },
@@ -171,7 +166,70 @@ export const videoLinks = [
     category: "m3-cond",
     milestone: 3,
     module: 14.2,
-    url: "",
+    url: "https://web.programming-hero.com/web-13/video/web-13-14_2-introduction-to-conditionals",
+    projectName: "N/A",
+  },
+  {
+    id: 10,
+    title: "If_else statement (visualization)",
+    category: "m3-cond",
+    milestone: 3,
+    module: 14.3,
+    url: "https://web.programming-hero.com/web-13/video/web-13-14_3-if_else-statement-visualization-",
+    projectName: "N/A",
+  },
+  {
+    id: 11,
+    title: "Conditional branching if Else Condition",
+    category: "m3-cond",
+    milestone: 3,
+    module: 14.4,
+    url: "https://web.programming-hero.com/web-13/video/web-13-14_4-conditional-branching-if-else-condition",
+    projectName: "N/A",
+  },
+  {
+    id: 12,
+    title: "Multiple condition Logical Operators(&&, ||)",
+    category: "m3-cond",
+    milestone: 3,
+    module: 14.5,
+    url: "https://web.programming-hero.com/web-13/video/web-13-14_5-multiple-condition-logical-operators-",
+    projectName: "N/A",
+  },
+  {
+    id: 13,
+    title: "Multi level If, Else If and Else condition",
+    category: "m3-cond",
+    milestone: 3,
+    module: 14.6,
+    url: "https://web.programming-hero.com/web-13/video/web-13-14_6-multi-level-if-else-if-else-condition",
+    projectName: "N/A",
+  },
+  {
+    id: 14,
+    title: "(optional) Nested if-else condition",
+    category: "m3-cond",
+    milestone: 3,
+    module: 14.7,
+    url: "https://web.programming-hero.com/web-13/video/web-13-14_7-optional-nested-if-else-condition",
+    projectName: "N/A",
+  },
+  {
+    id: 15,
+    title: "(advanced )If-else shorthand Ternary Operator",
+    category: "m3-cond",
+    milestone: 3,
+    module: 14.8,
+    url: "https://web.programming-hero.com/web-13/video/web-13-14_8-advanced-if-else-shorthand-ternary-operator",
+    projectName: "N/A",
+  },
+  {
+    id: 16,
+    title: "(advanced) Logical Not Operator",
+    category: "m3-cond",
+    milestone: 3,
+    module: 14.9,
+    url: "https://web.programming-hero.com/web-13/video/web-13-14_9-advanced-logical-not-operator",
     projectName: "N/A",
   },
 
