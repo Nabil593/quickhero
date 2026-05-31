@@ -798,7 +798,7 @@ export const videoLinks = [
   {
     id: 143,
     title: "Navigation bar and set theme on the website",
-    category: "m8-heroUi",
+    category: "m8-themeToggle",
     milestone: 8,
     module: 44.3,
     url: "https://web.programming-hero.com/web-13/video/web-13-44-3-navigation-bar-and-set-theme-on-the-website",
@@ -806,7 +806,7 @@ export const videoLinks = [
   {
     id: 144,
     title: "Explore switch theme toggle and modal",
-    category: "m8-heroUi",
+    category: "m8-themeToggle",
     milestone: 8,
     module: 44.4,
     url: "https://web.programming-hero.com/web-13/video/web-13-44-4-explore-switch-theme-toggle-and-modal",
