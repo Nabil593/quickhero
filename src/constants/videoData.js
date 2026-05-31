@@ -1,0 +1,377 @@
+// src/constants/videoData.js
+
+export const milestones = [
+  {
+    id: 3,
+    name: "Milestone-3: Hello JavaScript",
+    categories: [
+      { id: "m3-variable", name: "1. Variable" },
+      { id: "m3-arithmetic", name: "2. arithmetic" },
+      { id: "m3-cond", name: "3. Condition" },
+      { id: "m3-array", name: "4. Array" },
+      { id: "m3-loops", name: "5. Loops" },
+      { id: "m3-string", name: "6. String" },
+      { id: "m3-object", name: "7. Object" },
+      { id: "m3-func", name: "8. Functions" },
+      { id: "m3-problem", name: "9. Js Problem Solving" },
+    ],
+  },
+  {
+    id: 4,
+    name: "Milestone-4: Interactive JS & DOM",
+    categories: [
+      { id: "m4-dom-basics", name: "1. DOM Basics" },
+      { id: "m4-events", name: "2. DOM & Events" },
+      { id: "m4-functions", name: "3. Reusable Functions" },
+    ],
+  },
+  {
+    id: 5,
+    name: "Milestone-5: Intermediate JS & API",
+    categories: [
+      { id: "m5-es6", name: "1. ES6 Basics" },
+      { id: "m5-api-fetch", name: "2. API Fetch & JSON" },
+      { id: "m5-crud-overview", name: "3. CRUD Overview" },
+      { id: "m5-dynamic-ui", name: "4. Dynamic UI & Modal" },
+    ],
+  },
+  {
+    id: 6,
+    name: "Milestone-6: React Fundamentals",
+    categories: [
+      { id: "m6-props", name: "1. React Props" },
+      { id: "m6-hooks", name: "2. useEffect Hook" },
+      { id: "m6-state", name: "3. State & Toggle" },
+    ],
+  },
+  {
+    id: 7,
+    name: "Milestone-7: React Advanced & Hello Next.js",
+    categories: [
+      { id: "m7-context", name: "1. Context API" },
+      { id: "m7-firebase", name: "2. Firebase Auth" },
+    ],
+  },
+  {
+    id: 8,
+    name: "Milestone-8: More Next.js & Authentication",
+    categories: [
+      { id: "m8-nextauth", name: "1. NextAuth.js" },
+      { id: "m8-middleware", name: "2. Route Middleware" },
+    ],
+  },
+  {
+    id: 9,
+    name: "Milestone-9: Backend & Database Integrate",
+    categories: [
+      { id: "m9-db-conn", name: "1. DB Connection" },
+      { id: "m9-mongo-ops", name: "2. MongoDB Operators" },
+      { id: "m9-jwt", name: "3. JWT Security" },
+      { id: "m9-interceptors", name: "4. Axios Interceptors" },
+    ],
+  },
+  {
+    id: 10,
+    name: "Milestone-10: Full Stack Integration",
+    categories: [
+      { id: "m10-stack", name: "1. MERN Integration" },
+      { id: "m10-polish", name: "2. Production Polish" },
+    ],
+  },
+];
+
+
+
+
+
+export const videoLinks = [
+  // --- MILESTONE 3: HELLO JAVASCRIPT ---
+
+  // Category -> (m3-variable):
+  {
+    id: 1,
+    title: " What is a variable, five things you need to declare a variable",
+    category: "m3-variable", // ম্যাপ করা হয়েছে Milestone 3 এর Array ক্যাটাগরিতে
+    milestone: 3,
+    module: 13.4,
+    url: "https://web.programming-hero.com/web-13/video/web-13-13-4-what-is-a-variable-five-things-you-need-to-declare-a-variable",
+    projectName: "N/A",
+  },
+  {
+    id: 2,
+    title: "Variable Animated Video",
+    category: "m3-variable", // ম্যাপ করা হয়েছে Milestone 3 এর Array ক্যাটাগরিতে
+    milestone: 3,
+    module: 13.5,
+    url: "https://web.programming-hero.com/web-13/video/web-13-13-5-variable-animated-video",
+    projectName: "N/A",
+  },
+  {
+    id: 3,
+    title: "Variable data types, Numeric, String, Boolean",
+    category: "m3-variable", // ম্যাপ করা হয়েছে Milestone 3 এর Object ক্যাটাগরিতে
+    milestone: 3,
+    module: 13.6,
+    url: "https://web.programming-hero.com/web-13/video/web-13-13-6-variable-data-types-numeric-string-boolean-",
+    projectName: "N/A",
+  },
+  {
+    id: 4,
+    title: "JavaScript Keyword, Variable name naming convention",
+    category: "m3-variable", // ম্যাপ করা হয়েছে Milestone 3 এর Problem Solving ক্যাটাগরিতে
+    milestone: 3,
+    module: 13.7,
+    url: "https://web.programming-hero.com/web-13/video/web-13-13-7-javascript-keyword-variable-name-naming-convention",
+    projectName: "N/A",
+  },
+  {
+    id: 5,
+    title: "Compare variables and Comparison operator",
+    category: "m3-variable", // ম্যাপ করা হয়েছে Milestone 3 এর Problem Solving ক্যাটাগরিতে
+    milestone: 3,
+    module: 14-1,
+    url: "https://web.programming-hero.com/web-13/video/web-13-14_1-compare-variables-and-comparison-operator",
+    projectName: "N/A",
+  },
+
+
+  // Category -> (m3-arithmetic):
+  {
+    id: 6,
+    title: "Know the fundamentals of JS Numbers",
+    category: "m3-arithmetic",
+    milestone: 3,
+    module: 13.8,
+    url: "https://web.programming-hero.com/web-13/video/web-13-13-8-know-the-fundamentals-of-js-numbers",
+    projectName: "N/A",
+  },
+  {
+    id: 7,
+    title: " Introduction to arithmetic operators",
+    category: "m3-arithmetic",
+    milestone: 3,
+    module: 13.9,
+    url: "https://web.programming-hero.com/web-13/video/web-13-13-9-introduction-to-arithmetic-operators",
+    projectName: "N/A",
+  },
+  {
+    id: 8,
+    title: "(advanced) Mathematical operation shorthand",
+    category: "m3-arithmetic",
+    milestone: 3,
+    module: 13.10,
+    url: "https://web.programming-hero.com/web-13/video/web-13-13-10-advanced-mathematical-operation-shorthand",
+    projectName: "N/A",
+  },
+
+  // Category -> (m3-cond):
+  {
+    id: 9,
+    title: "Introduction to Conditionals",
+    category: "m3-cond",
+    milestone: 3,
+    module: 14.2,
+    url: "",
+    projectName: "N/A",
+  },
+
+  // --- MILESTONE 4: INTERACTIVE JAVASCRIPT, DOM ---
+  {
+    id: 5,
+    title: "Create HTML elements using JS & appendChild",
+    category: "m4-dom-basics",
+    milestone: 4,
+    module: 22,
+    videoNo: "8",
+    url: "https://web.programming-hero.com/web-13/video/web-13-22-8-create-html-elements-using-javascript-and-appendchild",
+    projectName: "N/A",
+  },
+  {
+    id: 6,
+    title: "Create a Github-like delete confirmation button",
+    category: "m4-events",
+    milestone: 4,
+    module: 23,
+    videoNo: "6",
+    url: "https://web.programming-hero.com/web-13/video/web-13-23-6-simple-github-like-delete-confirmation-button",
+    projectName: "Comment Box",
+  },
+  {
+    id: 7,
+    title: "Create Reusable Function to Get Input Field Value",
+    category: "m4-functions",
+    milestone: 4,
+    module: 25,
+    videoNo: "4",
+    url: "https://web.programming-hero.com/web-13/video/web-13-25-4-create-reusable-function-to-get-input-field-value",
+    projectName: "Payooo Mobile Bank",
+  },
+
+  // --- MILESTONE 5: INTERMEDIATE JAVASCRIPT AND API ---
+  {
+    id: 8,
+    title: "load-json-data-using-fetch-function",
+    category: "m5-api-fetch",
+    milestone: 5,
+    module: 27,
+    videoNo: "7",
+    url: "https://web.programming-hero.com/web-13/video/web-13-32-3-load-json-data-using-fetch-function",
+    projectName: "N/A",
+  },
+  {
+    id: 9,
+    title: "Array Methods Recap: map, forEach, filter, find, reduce",
+    category: "m5-es6",
+    milestone: 5,
+    module: 28,
+    videoNo: "5",
+    url: "https://web.programming-hero.com/web-13/video/web-13-28-5-recap-map-foreach-filter-find-reduce",
+    projectName: "N/A",
+  },
+  {
+    id: 10,
+    title: "GET, POST, PATCH, DELETE, CRUD Methods Overview",
+    category: "m5-crud-overview",
+    milestone: 5,
+    module: 30,
+    videoNo: "7",
+    url: "https://web.programming-hero.com/web-13/video/web-13-30-7-get-post-patch-delete-crud-get-vs-post",
+    projectName: "N/A",
+  },
+  {
+    id: 11,
+    title: "Show Dynamic Details Data on a Modal via API",
+    category: "m5-dynamic-ui",
+    milestone: 5,
+    module: 31,
+    videoNo: "7",
+    url: "https://web.programming-hero.com/web-13/video/web-13-31-7-show-word-details-data-on-a-modal",
+    projectName: "English Janala",
+  },
+
+  // --- MILESTONE 6: REACT FUNDAMENTALS ---
+  {
+    id: 12,
+    title: "Understanding Props: Passing Data Parent to Child",
+    category: "m6-props",
+    milestone: 6,
+    module: 33,
+    videoNo: "5",
+    url: "https://web.programming-hero.com/web-13/video/web-13-33-5-understanding-props-passing-data-parent-to-child",
+    projectName: "N/A",
+  },
+  {
+    id: 13,
+    title: "The useEffect Hook: Managing Side Effects & Fetching",
+    category: "m6-hooks",
+    milestone: 6,
+    module: 34,
+    videoNo: "4",
+    url: "https://web.programming-hero.com/web-13/video/web-13-34-4-the-useeffect-hook-managing-side-effects",
+    projectName: "N/A",
+  },
+  {
+    id: 14,
+    title: "State Management & Toggle Functionality in Cards",
+    category: "m6-state",
+    milestone: 6,
+    module: 37,
+    videoNo: "5",
+    url: "https://web.programming-hero.com/web-13/video/web-13-37-5-state-management-toggle-functionality",
+    projectName: "BPL-DREAM",
+  },
+
+  // --- MILESTONE 7 & 8: ADVANCED REACT & NEXT.JS ---
+  {
+    id: 15,
+    title: "Introduction to Context API: Create, Provide, Consume",
+    category: "m7-context",
+    milestone: 7,
+    module: 39,
+    videoNo: "2",
+    url: "https://web.programming-hero.com/web-13/video/web-13-39-2-introduction-to-context-api-create-provide-consume",
+    projectName: "N/A",
+  },
+  {
+    id: 16,
+    title: "Integrating Firebase Authentication (Google/Email Login)",
+    category: "m7-firebase",
+    milestone: 7,
+    module: 41,
+    videoNo: "3",
+    url: "https://web.programming-hero.com/web-13/video/web-13-41-3-integrating-firebase-authentication-google-email",
+    projectName: "Dragon News",
+  },
+  {
+    id: 17,
+    title: "Configuring Social Login with NextAuth.js (Google/GitHub)",
+    category: "m8-nextauth",
+    milestone: 8,
+    module: 47,
+    videoNo: "3",
+    url: "https://web.programming-hero.com/web-13/video/web-13-47-3-configuring-social-login-google-github-providers",
+    projectName: "N/A",
+  },
+  {
+    id: 18,
+    title: "Protecting Routes using Middleware in Next.js",
+    category: "m8-middleware",
+    milestone: 8,
+    module: 47,
+    videoNo: "6",
+    url: "https://web.programming-hero.com/web-13/video/web-13-47-6-protecting-routes-using-middleware-middleware-js",
+    projectName: "N/A",
+  },
+
+  // --- MILESTONE 9 & 10: EXPRESS, MONGODB & FULL STACK ---
+  {
+    id: 19,
+    title: "Database Connection Logic using Async/Await & Try-Catch",
+    category: "m9-db-conn",
+    milestone: 9,
+    module: 52,
+    videoNo: "2",
+    url: "https://web.programming-hero.com/web-13/video/web-13-52-2-connection-logic-async-await-try-catch-block",
+    projectName: "N/A",
+  },
+  {
+    id: 20,
+    title: "MongoDB Advanced Operators: $or, $in, $lt, $gt",
+    category: "m9-mongo-ops",
+    milestone: 9,
+    module: 53,
+    videoNo: "5",
+    url: "https://web.programming-hero.com/web-13/video/web-13-53-5-mongodb-operators-or-in-lt-gt-not",
+    projectName: "Marketplace App",
+  },
+  {
+    id: 21,
+    title: "Generating & Verifying Tokens using JSON Web Token (JWT)",
+    category: "m9-jwt",
+    milestone: 9,
+    module: 55,
+    videoNo: "2",
+    url: "https://web.programming-hero.com/web-13/video/web-13-55-2-generating-tokens-using-jsonwebtoken-sign-verify",
+    projectName: "N/A",
+  },
+  {
+    id: 22,
+    title: "Request Interceptor: Attaching Token Automatically via Axios",
+    category: "m9-interceptors",
+    milestone: 9,
+    module: 56,
+    videoNo: "3",
+    url: "https://web.programming-hero.com/web-13/video/web-13-56-3-request-interceptor-attaching-token-session-automatically",
+    projectName: "Final Polish",
+  },
+  {
+    id: 23,
+    title: "MERN Stack Client Server Synchronization Setup",
+    category: "m10-stack",
+    milestone: 10,
+    module: 58,
+    videoNo: "1",
+    url: "https://web.programming-hero.com/web-13/video/web-13-58-1-mern-stack-client-server-synchronization",
+    projectName: "OpenBook",
+  },
+];
