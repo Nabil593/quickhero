@@ -392,7 +392,43 @@ export const videoLinks = [
   },
 
 
-
+  // Category -> (m3-string):
+  {
+    id: 34,
+    title: "Introduction to string and string vs array",
+    category: "m3-string",
+    milestone: 3,
+    module: "16.1",
+    url: "https://web.programming-hero.com/web-13/video/web-13-16_1-introduction-to-string-and-string-vs-array",
+    projectName: "N/A",
+  },
+  {
+    id: 35,
+    title: "String Comparison lowercase uppercase and trim",
+    category: "m3-string",
+    milestone: 3,
+    module: "16.2",
+    url: "https://web.programming-hero.com/web-13/video/web-13-16_2-string-comparison-lowercase-uppercase-and-trim",
+    projectName: "N/A",
+  },
+  {
+    id: 36,
+    title: " String Slice, Join, Concat and includes",
+    category: "m3-string",
+    milestone: 3,
+    module: "16.3",
+    url: "https://web.programming-hero.com/web-13/video/web-13-16_3-string-slice-join-concat-and-includes",
+    projectName: "N/A",
+  },
+  {
+    id: 37,
+    title: "Reverse a String in Three different ways",
+    category: "m3-string",
+    milestone: 3,
+    module: "16.4",
+    url: "https://web.programming-hero.com/web-13/video/web-13-16_4-reverse-a-string-in-three-different-ways",
+    projectName: "N/A",
+  },
 
 
   // --- MILESTONE 4: INTERACTIVE JAVASCRIPT, DOM ---
