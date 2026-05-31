@@ -307,6 +307,94 @@ export const videoLinks = [
     projectName: "N/A",
   },
 
+
+  // Category -> (m3-loops):
+  {
+    id: 25,
+    title: "What is a Loop, explore for loop",
+    category: "m3-loops",
+    milestone: 3,
+    module: "15.1",
+    url: "https://web.programming-hero.com/web-13/video/web-13-15_1-what-is-a-loop-explore-for-loop",
+    projectName: "N/A",
+  },
+  {
+    id: 26,
+    title: " Introduction to While Loop",
+    category: "m3-loops",
+    milestone: 3,
+    module: "15.2",
+    url: "https://web.programming-hero.com/web-13/video/web-13-15_2-introduction-to-while-loop",
+    projectName: "N/A",
+  },
+  {
+    id: 27,
+    title: "Problem solving with While Loop",
+    category: "m3-loops",
+    milestone: 3,
+    module: "15.3",
+    url: "https://web.programming-hero.com/web-13/video/web-13-15_3-problem-solving-with-while-loop-",
+    projectName: "N/A",
+  },
+  {
+    id: 28,
+    title: "Introduction to For Loop",
+    category: "m3-loops",
+    milestone: 3,
+    module: "15.4",
+    url: "https://web.programming-hero.com/web-13/video/web-13-15_4-introduction-to-for-loop",
+    projectName: "N/A",
+  },
+  {
+    id: 29,
+    title: "Problem solving with For Loop",
+    category: "m3-loops",
+    milestone: 3,
+    module: "15.5",
+    url: "https://web.programming-hero.com/web-13/video/web-13-15_5-problem-solving-with-for-loop",
+    projectName: "N/A",
+  },
+  {
+    id: 30,
+    title: "Different ways to use loop",
+    category: "m3-loops",
+    milestone: 3,
+    module: "15.6",
+    url: "https://web.programming-hero.com/web-13/video/web-13-15_6-different-ways-to-use-loop",
+    projectName: "N/A",
+  },
+  {
+    id: 31,
+    title: "When to use a break and continue",
+    category: "m3-loops",
+    milestone: 3,
+    module: "15.7",
+    url: "https://web.programming-hero.com/web-13/video/web-13-15_7-when-to-use-a-break-and-continue-",
+    projectName: "N/A",
+  },
+  {
+    id: 32,
+    title: "(optional) Introduction to Do While Loop",
+    category: "m3-loops",
+    milestone: 3,
+    module: "15.8",
+    url: "https://web.programming-hero.com/web-13/video/web-13-15_8-optional-introduction-to-do-while-loop-",
+    projectName: "N/A",
+  },
+  {
+    id: 33,
+    title: "Difference between types of loops Module Summary",
+    category: "m3-loops",
+    milestone: 3,
+    module: "15.9",
+    url: "https://web.programming-hero.com/web-13/video/web-13-15_9-difference-between-types-of-loops-module-summary",
+    projectName: "N/A",
+  },
+
+
+
+
+
   // --- MILESTONE 4: INTERACTIVE JAVASCRIPT, DOM ---
   {
     id: 5,
