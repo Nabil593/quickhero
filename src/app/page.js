@@ -47,9 +47,9 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col md:flex-row items-center justify-between gap-4">
           <div>
             <h1 className="text-2xl font-black tracking-tight text-primary flex items-center gap-2">
-              ⚡ QuickHero{" "}
+              QuickHero
               <span className="badge badge-sm badge-outline font-normal">
-                v1.1
+                B-13
               </span>
             </h1>
             <p className="text-xs text-base-content/60 mt-0.5">
