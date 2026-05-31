@@ -431,6 +431,55 @@ export const videoLinks = [
   },
 
 
+
+  // Category -> (m3-object):
+  {
+    id: 38,
+    title: "Introduction to Objects properties and values",
+    category: "m3-object",
+    milestone: 3,
+    module: "16.5",
+    url: "https://web.programming-hero.com/web-13/video/web-13-16_5-introduction-to-objects-properties-and-values",
+    projectName: "N/A",
+  },
+  {
+    id: 39,
+    title: "What is Object Animated video",
+    category: "m3-object",
+    milestone: 3,
+    module: "16.6",
+    url: "https://web.programming-hero.com/web-13/video/web-13-16_6-what-is-object-animated-video",
+    projectName: "N/A",
+  },
+  {
+    id: 40,
+    title: "Multiple ways to get & set object properties",
+    category: "m3-object",
+    milestone: 3,
+    module: "16.7",
+    url: "https://web.programming-hero.com/web-13/video/web-13-16_7-multiple-ways-to-get-set-object-properties",
+    projectName: "N/A",
+  },
+  {
+    id: 41,
+    title: "Keys, Values, nested objects and delete",
+    category: "m3-object",
+    milestone: 3,
+    module: "16.8",
+    url: "https://web.programming-hero.com/web-13/video/web-13-16_8-keys-values-nested-objects-and-delete",
+    projectName: "N/A",
+  },
+  {
+    id: 42,
+    title: "Loop an object and Ways to declare an Object",
+    category: "m3-object",
+    milestone: 3,
+    module: "16.9",
+    url: "https://web.programming-hero.com/web-13/video/web-13-16_9-loop-an-object-and-ways-to-declare-an-object",
+    projectName: "N/A",
+  },
+
+
   // --- MILESTONE 4: INTERACTIVE JAVASCRIPT, DOM ---
   {
     id: 5,
