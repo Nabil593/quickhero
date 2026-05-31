@@ -214,10 +214,18 @@ export default function Home() {
 
       {/* 🟢 FOOTER */}
       <footer className="footer footer-center p-4 bg-base-100 text-base-content/40 border-t border-base-300 text-xs font-mono mt-20">
-        <div>
+        <div className="flex items-center justify-center w-full">
           <p>
             © {new Date().getFullYear()} - QuickHero • Built for PH Batch 13
-            Students
+            Students by{" "}
+            <a
+              href="https://www.linkedin.com/in/shariea-reza-nabil/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline hover:text-blue-800 transition-colors font-semibold"
+            >
+              Shariea Reza Nabil
+            </a>
           </p>
         </div>
       </footer>
