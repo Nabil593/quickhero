@@ -480,6 +480,91 @@ export const videoLinks = [
   },
 
 
+  // Category -> (m3-func):
+  {
+    id: 43,
+    title: "What are function and function syntax",
+    category: "m3-func",
+    milestone: 3,
+    module: "17.1",
+    url: "https://web.programming-hero.com/web-13/video/web-13-19-1-what-are-function-and-function-syntax-",
+    projectName: "N/A",
+  },
+  {
+    id: 44,
+    title: "Understand the concept of function with visual effects",
+    category: "m3-func",
+    milestone: 3,
+    module: "17.2",
+    url: "https://web.programming-hero.com/web-13/video/web-13-19-2-understand-the-concept-of-function-with-visual-effects",
+    projectName: "N/A",
+  },
+  {
+    id: 45,
+    title: "Function parameter, handle multiple parameters",
+    category: "m3-func",
+    milestone: 3,
+    module: "17.3",
+    url: "https://web.programming-hero.com/web-13/video/web-13-19-3-function-parameter-handle-multiple-parameters",
+    projectName: "N/A",
+  },
+  {
+    id: 46,
+    title: "How Function works and argument vs parameters",
+    category: "m3-func",
+    milestone: 3,
+    module: "17.4",
+    url: "https://web.programming-hero.com/web-13/video/web-13-19-4-how-function-works-and-argument-vs-parameters",
+    projectName: "N/A",
+  },
+  {
+    id: 47,
+    title: "Function return and set return value to a variable",
+    category: "m3-func",
+    milestone: 3,
+    module: "17.5",
+    url: "https://web.programming-hero.com/web-13/video/web-13-19-5-function-return-and-set-return-value-to-a-variable",
+    projectName: "N/A",
+  },
+  {
+    id: 48,
+    title: "Recap and conditional return of odd and even",
+    category: "m3-func",
+    milestone: 3,
+    module: "17.6",
+    url: "https://web.programming-hero.com/web-13/video/web-13-19-6-recap-and-conditional-return-of-odd-and-even",
+    projectName: "N/A",
+  },
+  {
+    id: 49,
+    title: "Different types of parameters for a function",
+    category: "m3-func",
+    milestone: 3,
+    module: "17.7",
+    url: "https://web.programming-hero.com/web-13/video/web-13-19-7-different-types-of-parameters-for-a-function",
+    projectName: "N/A",
+  },
+  {
+    id: 50,
+    title: "Sum of all numbers in an array using function",
+    category: "m3-func",
+    milestone: 3,
+    module: "17.8",
+    url: "https://web.programming-hero.com/web-13/video/web-13-19-8-sum-of-all-numbers-in-an-array-using-function",
+    projectName: "N/A",
+  },
+  {
+    id: 51,
+    title: "Return all the even numbers of an array",
+    category: "m3-func",
+    milestone: 3,
+    module: "17.9",
+    url: "https://web.programming-hero.com/web-13/video/web-13-19-9-return-all-the-even-numbers-of-an-array",
+    projectName: "N/A",
+  },
+
+
+
   // --- MILESTONE 4: INTERACTIVE JAVASCRIPT, DOM ---
   {
     id: 5,
