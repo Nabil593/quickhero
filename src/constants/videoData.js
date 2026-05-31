@@ -1,5 +1,3 @@
-// src/constants/videoData.js
-
 export const milestones = [
   {
     id: 3,
@@ -56,8 +54,12 @@ export const milestones = [
     id: 8,
     name: "Milestone-8: More Next.js & Authentication",
     categories: [
-      { id: "m8-nextauth", name: "1. NextAuth.js" },
-      { id: "m8-middleware", name: "2. Route Middleware" },
+      { id: "m8-dataFeatch", name: "1. Data Featching" },
+      { id: "m8-heroUi", name: "1. Hero UI" },
+      { id: "m8-themeToggle", name: "1. Theme Toggle" },
+      { id: "m8-serverAction", name: "2. Server Action" },
+      { id: "m8-auth", name: "1. Authintecation" },
+      { id: "m8-authProject", name: "2. Auth Project" },
     ],
   },
   {
@@ -81,7 +83,7 @@ export const milestones = [
 ];
 
 export const videoLinks = [
-  // --- MILESTONE 3: HELLO JAVASCRIPT ---
+  // =================================================MILESTONE 3: HELLO JAVASCRIPT==========================================================
 
   // Category -> (m3-variable):
   {
@@ -565,7 +567,7 @@ export const videoLinks = [
 
 
 
-  // --- MILESTONE 4: INTERACTIVE JAVASCRIPT, DOM ---
+  // ========================================MILESTONE 4: INTERACTIVE JAVASCRIPT, DOM===============================================
   {
     id: 5,
     title: "Create HTML elements using JS & appendChild",
@@ -597,7 +599,7 @@ export const videoLinks = [
     projectName: "Payooo Mobile Bank",
   },
 
-  // --- MILESTONE 5: INTERMEDIATE JAVASCRIPT AND API ---
+  // =============================================MILESTONE 5: INTERMEDIATE JAVASCRIPT AND API==============================================
   {
     id: 8,
     title: "load-json-data-using-fetch-function",
@@ -639,7 +641,7 @@ export const videoLinks = [
     projectName: "English Janala",
   },
 
-  // --- MILESTONE 6: REACT FUNDAMENTALS ---
+  // ==================================================MILESTONE 6: REACT FUNDAMENTALS========================================================
   {
     id: 12,
     title: "Understanding Props: Passing Data Parent to Child",
@@ -671,7 +673,7 @@ export const videoLinks = [
     projectName: "BPL-DREAM",
   },
 
-  // --- MILESTONE 7 & 8: ADVANCED REACT & NEXT.JS ---
+  // =============================================MILESTONE 7 ADVANCED REACT & NEXT.JS=======================================================
   {
     id: 15,
     title: "Introduction to Context API: Create, Provide, Consume",
@@ -712,6 +714,115 @@ export const videoLinks = [
     url: "https://web.programming-hero.com/web-13/video/web-13-47-6-protecting-routes-using-middleware-middleware-js",
     projectName: "N/A",
   },
+
+ // =============================================MILESTONE 8 More Next.js & Authentication=======================================================
+ // Category -> (m8-dataFeatch):
+ {
+    id: 104,
+    title: " Data Fetching Flow in Next.js",
+    category: "m8-dataFeatch",
+    milestone: 8,
+    module: 43.1,
+    url: "https://web.programming-hero.com/web-13/video/web-13-43-1-recap-data-fetching-flow-in-next-js",
+  },
+  {
+    id: 194,
+    title: "Fetching Data in Server Components",
+    category: "m8-dataFeatch",
+    milestone: 8,
+    module: 43.2,
+    url: "https://web.programming-hero.com/web-13/video/web-13-43-2-fetching-data-in-server-components-",
+  },
+  {
+    id: 184,
+    title: "Set JSON server with temporary data server",
+    category: "m8-dataFeatch",
+    milestone: 8,
+    module: 43.3,
+    url: "https://web.programming-hero.com/web-13/video/web-13-43-3-set-json-server-with-temporary-data-server",
+  },
+  {
+    id: 174,
+    title: "Understanding force cache and cache checking",
+    category: "m8-dataFeatch",
+    milestone: 8,
+    module: 43.4,
+    url: "https://web.programming-hero.com/web-13/video/web-13-43-4-understanding-force-cache-and-cache-checking",
+  },
+  {
+    id: 164,
+    title: "Dynamic Data Fetching cache no-store and revalidate",
+    category: "m8-dataFeatch",
+    milestone: 8,
+    module: 43.5,
+    url: "https://web.programming-hero.com/web-13/video/web-13-43-5-dynamic-data-fetching-cache-no-store-and-revalidate",
+  },
+  {
+    id: 154,
+    title: "(advanced) generateStaticParams (Dynamic Pages Optimization)",
+    category: "m8-dataFeatch",
+    milestone: 8,
+    module: 43.6,
+    url: "https://web.programming-hero.com/web-13/video/web-13-43-7-advanced-generatestaticparams-dynamic-pages-optimization-",
+  },
+  {
+    id: 144,
+    title: "check generate static params",
+    category: "m8-dataFeatch",
+    milestone: 8,
+    module: 43.7,
+    url: "https://web.programming-hero.com/web-13/video/web-13-43-8-check-generate-static-params",
+  },
+
+
+  // Category -> (m8-heroUi):
+  {
+    id: 114,
+    title: " Setting up HeroUI in Next.js",
+    category: "m8-heroUi",
+    milestone: 8,
+    module: 44.1,
+    url: "https://web.programming-hero.com/web-13/video/web-13-44-1-setting-up-heroui-in-next-js",
+  },
+  {
+    id: 142,
+    title: "Using HeroUI components with fetched data (cards, lists)",
+    category: "m8-heroUi",
+    milestone: 8,
+    module: 44.2,
+    url: "https://web.programming-hero.com/web-13/video/web-13-44-2-using-heroui-components-with-fetched-data-cards-lists-",
+  },
+
+
+  // Category -> (m8-themeToggle):
+  {
+    id: 143,
+    title: "Navigation bar and set theme on the website",
+    category: "m8-heroUi",
+    milestone: 8,
+    module: 44.3,
+    url: "https://web.programming-hero.com/web-13/video/web-13-44-3-navigation-bar-and-set-theme-on-the-website",
+  },
+  {
+    id: 144,
+    title: "Explore switch theme toggle and modal",
+    category: "m8-heroUi",
+    milestone: 8,
+    module: 44.4,
+    url: "https://web.programming-hero.com/web-13/video/web-13-44-4-explore-switch-theme-toggle-and-modal",
+  },
+  
+  // Category -> (m8-serverAction):
+  {
+    id: 147,
+    title: "Explore switch theme toggle and modal",
+    category: "m8-heroUi",
+    milestone: 8,
+    module: 44.4,
+    url: "https://web.programming-hero.com/web-13/video/web-13-44-4-explore-switch-theme-toggle-and-modal",
+  },
+
+
 
   // --- MILESTONE 9 & 10: EXPRESS, MONGODB & FULL STACK ---
   {

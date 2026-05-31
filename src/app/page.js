@@ -76,18 +76,21 @@ export default function Home() {
             <h2>মাইলস্টোন সিলেক্ট করো:</h2>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 bg-base-100 p-3 rounded-xl border border-base-300 shadow-sm">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 bg-base-100 p-4 rounded-md border border-base-300 shadow-sm">
             {filteredMilestones.map((ms) => (
               <button
                 key={ms.id}
                 onClick={() => handleMilestoneChange(ms.id)}
-                className={`btn btn-sm md:btn-md justify-start px-4 rounded-lg transition-all duration-200 normal-case ${
+                className={`btn btn-sm md:btn-md h-auto py-3 w-full justify-start px-4 rounded-lg transition-all duration-200 normal-case ${
                   activeMilestone === ms.id
                     ? "btn-primary shadow-md font-bold text-left"
                     : "btn-ghost text-base-content/70 text-left hover:bg-base-200"
                 }`}
               >
-                <span className="truncate">{ms.name}</span>
+                {/* whitespace-normal এবং break-words লেখাটিকে পরের লাইনে নিয়ে যাবে */}
+                <span className="block w-full text-left whitespace-normal break-words">
+                  {ms.name}
+                </span>
               </button>
             ))}
           </div>
@@ -110,7 +113,7 @@ export default function Home() {
                   onClick={() => setActiveCategory(cat.id)}
                   className={`btn rounded-full px-5 transition-all duration-300 normal-case ${
                     activeCategory === cat.id
-                      ? "btn-neutral shadow-lg scale-105 border-transparent text-white"
+                      ? "btn-neutral shadow-lg scale-105 border-transparent text-black"
                       : "btn-outline border-base-300 hover:border-base-content/40 bg-base-100"
                   }`}
                 >
